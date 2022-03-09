@@ -6,7 +6,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 - [Contributers](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#contributers)
 - [Time Box](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#time-box)
 
-## Contributors
+# Contributors
 
 | Name | Role | Github Profile | Issues | Scrum Board | Commit History |
 | - | - | - | - | - | - |
@@ -16,7 +16,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Lucas Huang | Scrum Master | [@lucashuang248](https://github.com/lucashuang248) | [Issues](https://github.com/Ethan-Gravin25/TLDEW/issues?q=assignee%3Alucashuang248) | [Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1?card_filter_query=assignee%3Alucashuang248) | [Commits](https://github.com/Ethan-Gravin25/TLDEW/commits?author=lucashuang248) |
 | William Du | Technical Officer | [@WilliamDu22](https://github.com/WilliamDu22) | [Issues](https://github.com/Ethan-Gravin25/TLDEW/issues?q=assignee%3AWilliamDu22) | [Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1?card_filter_query=assignee%3AWilliamDu22) | [Commits](https://github.com/Ethan-Gravin25/TLDEW/commits?author=WilliamDu22) |
 
-## Time Box
+# Time Box
 
-# Week 0
+## Week 0
 We formed our website idea and worked on the python projects in replit. 
