@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Period 4 TLDEW
 
-You can use the [editor on GitHub](https://github.com/Ethan-Gravin25/TLDEW/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hello! We are the TLDEW scrum team. We want to create a website to help adventure seekers find their next trail or trip. Our website will support an interactive map with trails that can be rated by the users. It will have other features that will be implemented in the future. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Table of Contents
+- [Contributers](https://github.com/tonyhieu/csp-anthonys-harem/blob/main/README.md#contributers)
+- [Time Box](https://github.com/tonyhieu/csp-anthonys-harem/blob/main/README.md#time-box)
 
-### Markdown
+## Contributers
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| Name | Role | Github Profile | Issues | Scrum Board | Commit History |
+| - | - | - | - | - | - |
+| Ethan Gravin | GitHub Admin | [@Ethan-Gravin25](https://github.com/Ethan-Gravin25) | [Issues](https://github.com/tonyhieu/csp-anthonys-harem/issues?q=assignee%3AEthan-Gravin25) | [Scrum Board](https://github.com/tonyhieu/csp-anthonys-harem/projects/1?card_filter_query=assignee%3AEthan-Gravin25) | [Commits](https://github.com/tonyhieu/csp-anthonys-harem/commits?author=Ethan-Gravin25) |
+| Timothy Lin | Deployment Manager | [@TimL1n](https://github.com/TimL1n) | [Issues](https://github.com/Ethan-Gravin25/TLDEW/issues?q=assignee%3ATimL1n) | [Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1?card_filter_query=assignee%3ATimL1n) | [Commits](https://github.com/Ethan-Gravin25/TLDEW/commits?author=TimL1n) 
+| Dylan Lu | Web Designer | [@Dylanluo05](https://github.com/Dylanluo05) | [Issues](https://github.com/Ethan-Gravin25/TLDEW/issues?q=assignee%3ADylanluo05) | [Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1?card_filter_query=assignee%3ADylanluo05) | [Commits](https://github.com/Ethan-Gravin25/TLDEW/commits?author=Dylanluo05) |
+| Lucas Huang | Scrum Master | [@lucashuang248](https://github.com/lucashuang248) | [Issues](https://github.com/Ethan-Gravin25/TLDEW/issues?q=assignee%3Alucashuang248) | [Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1?card_filter_query=assignee%3Alucashuang248) | [Commits](https://github.com/Ethan-Gravin25/TLDEW/commits?author=lucashuang248) |
+| William Du | Technical Officer | [@WilliamDu22](https://github.com/WilliamDu22) | [Issues](https://github.com/Ethan-Gravin25/TLDEW/issues?q=assignee%3AWilliamDu22) | [Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1?card_filter_query=assignee%3AWilliamDu22) | [Commits](https://github.com/Ethan-Gravin25/TLDEW/commits?author=WilliamDu22) |
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ethan-Gravin25/TLDEW/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Time Box
