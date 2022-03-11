@@ -25,7 +25,7 @@ Web Project | Project Description |
 ----------- | ---- |
 Website Wireframe | [Wireframe](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit?utm_content=DAE6hI67WXI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 Website Brain Write | [@Dylanluo05](https://github.com/Dylanluo05) | 
-Dylan Luo | [@isabelle926](https://github.com/isabelle926) |
+Dylan Luo | [@Dylanluo05](https://github.com/Dylanluo05) |
 Lucas Huang | [@AlexD017](https://github.com/AlexD017) |
 William Du | [@Dylanluo05](https://github.com/Dylanluo05) | 
 
