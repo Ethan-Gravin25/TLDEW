@@ -24,8 +24,10 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 Web Project | Project Description | 
 ----------- | ---- |
 Website Wireframe | [Wireframe](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit?utm_content=DAE6hI67WXI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-Website Brain Write | [@Dylanluo05](https://github.com/Dylanluo05) | 
+Website Brain Write | [Brain Write](https://github.com/Dylanluo05) | 
 Dylan Luo | [@Dylanluo05](https://github.com/Dylanluo05) |
-Lucas Huang | [@Dylanluo05](https://github.com/Dylanluo05) |
-William Du | [@Dylanluo05](https://github.com/Dylanluo05) | 
+Lucas Huang | [@lucashuang248](https://github.com/lucashuang248) |
+William Du | [@WilliamDu22](https://github.com/WilliamDu22) | 
+Ethan Gravin | [@Ethan-Gravin25](https://github.com/Ethan-Gravin25) | 
+Tim Lin | [@TimL1n](https://github.com/TimL1n) | 
 
