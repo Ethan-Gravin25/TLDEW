@@ -6,7 +6,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 - [Contributers](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#contributers)
 - [Time Box](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#time-box)
 
-# Contributors
+# About Team
 
 | Name | Role | Github Profile | Issues | Scrum Board | Commit History | Individual Repo |
 | - | - | - | - | - | - | - |
