@@ -19,5 +19,3 @@ We are using MIT Liscense for our project.
 
 ### Key Workflow or actions within site
 [Our Flowcharts](https://ethan-gravin25.github.io/TLDEW/technicalplan)
-
-### Data and any Data Privacy or Security needed. For instance between Admin and Users of system.
