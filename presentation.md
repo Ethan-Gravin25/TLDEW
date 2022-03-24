@@ -11,11 +11,11 @@ Our website will be sponsored by the Del Norte Hike Club, TrailNorte.
 Our website will be hosted using AWS. 
 
 ### GitHub license
+We are using MIT Liscense for our project. 
+[License Page](https://github.com/Ethan-Gravin25/TLDEW/blob/main/LICENSE)
 
 ### WireFrames
 [Our Wireframes](https://ethan-gravin25.github.io/TLDEW/projectideation)
 
 ### Key Workflow or actions within site
 [Our Flowcharts](https://ethan-gravin25.github.io/TLDEW/technicalplan)
-
-### Data and any Data Privacy or Security needed. For instance between Admin and Users of system.
