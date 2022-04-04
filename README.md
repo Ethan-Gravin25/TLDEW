@@ -48,9 +48,9 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 
 | Name | Tasks | Evidence | 
 | ------- | ----------- | -------- |
-| Ethan Gravin | Algorithmic Final. | [TLDEW Week 3 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/). | 
-| Timothy Lin | Algorithmic Final. | [TLDEW Week 3 Review Ticket](https://timl1n.github.io/TimTestTime/). | 
+| Ethan Gravin | Algorithmic Final | [TLDEW Week 3 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/). | 
+| Timothy Lin | Algorithmic Final | [TLDEW Week 3 Review Ticket](https://timl1n.github.io/TimTestTime/). | 
 | Dylan Luo | Algorithmic Final and created Time Box 3. | [TLDEW Week 3 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Trail Norte Website Wire Frame](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit) // [Time Box 3](https://github.com/Ethan-Gravin25/TLDEW#week-3). |
 | Lucas Huang | Algorithmic Final and updated the Scrum Board. | [TLDEW Week 3 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
-| William Du | Algorithmic Final. | [TLDEW Week 3 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
+| William Du | Algorithmic Final | [TLDEW Week 3 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
 | Team Review | TLDEW Week 3 Review Ticket | [TLDEW Week 3 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/11). |
