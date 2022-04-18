@@ -1,3 +1,15 @@
+
+## Week 4 Login Hacks
+Hack 1
+https://user-images.githubusercontent.com/89223558/162492416-822de6b9-4453-4f65-ac78-d01e7740c26e.png
+https://user-images.githubusercontent.com/89223558/162492371-d59773c8-6662-4949-a681-cd47d9a2d76b.png
+
+Hack 2
+https://user-images.githubusercontent.com/89223558/163854263-f001143b-57ea-4153-9361-17faaf184b8e.png
+
+Hack 3
+https://user-images.githubusercontent.com/89223558/162492736-3de91ac8-51c7-4247-9e63-656a6cef6ea5.png
+
 ## Week 2 Presentation 
 
 ### Big Idea 
