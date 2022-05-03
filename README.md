@@ -59,15 +59,13 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 
 | Name | Tasks | Evidence | 
 | ------- | ----------- | -------- |
-| Ethan Gravin | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/). | 
-| Timothy Lin | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://timl1n.github.io/TimTestTime/). | 
-| Dylan Luo | Finished College Board Create Task Project for the week, created Time Box 4, and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 4](https://github.com/Ethan-Gravin25/TLDEW#week-4). |
-| Lucas Huang | Finished College Board Create Task Project for the week, updated the Scrum Board, and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
-| William Du | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
+| Ethan Gravin | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). |  
+| Timothy Lin | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://timl1n.github.io/TimTestTime/) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). | 
+| Dylan Luo | Finished College Board Create Task Project for the week, created Time Box 4, and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 4](https://github.com/Ethan-Gravin25/TLDEW#week-4) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). |
+| Lucas Huang | Finished College Board Create Task Project for the week, updated the Scrum Board, and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). |
+| William Du | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). | 
 | Team Review | TLDEW Week 4 Review Ticket | [TLDEW Week 4 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/16). |
 
-
-https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks
 
 ## Week 5 ##
 
@@ -79,3 +77,14 @@ https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-h
 | Lucas Huang | Finished College Board Preparations Week 1 Assignment and updated the Scrum Board. | [TLDEW Week 5 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | Finished College Board Preparations Week 1 Assignment. | [TLDEW Week 5 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
 | Team Review | TLDEW Week 5 Review Ticket | [TLDEW Week 5 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/17). |
+
+## Week 6 ##
+
+| Name | Tasks | Evidence | 
+| ------- | ----------- | -------- |
+| Ethan Gravin | Finished College Board Preparations Week 2 Assignment. | [TLDEW Week 6 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/). | 
+| Timothy Lin | Finished College Board Preparations Week 2 Assignment. | [TLDEW Week 6 Review Ticket](https://timl1n.github.io/TimTestTime/). | 
+| Dylan Luo | Finished College Board Preparations Week 2 Assignment and created Time Box 6. | [TLDEW Week 6 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 6](https://github.com/Ethan-Gravin25/TLDEW#week-5). |
+| Lucas Huang | Finished College Board Preparations Week 2 Assignment and updated the Scrum Board. | [TLDEW Week 6 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
+| William Du | Finished College Board Preparations Week 2 Assignment. | [TLDEW Week 6 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
+| Team Review | TLDEW Week 5 Review Ticket | [TLDEW Week 6 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/17). |
