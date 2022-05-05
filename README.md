@@ -87,4 +87,16 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | Finished College Board Preparations Week 2 Assignment and created Time Box 6. | [TLDEW Week 6 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 6](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-6). |
 | Lucas Huang | Finished College Board Preparations Week 2 Assignment and updated the Scrum Board. | [TLDEW Week 6 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | Finished College Board Preparations Week 2 Assignment. | [TLDEW Week 6 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 6 Review Ticket | [TLDEW Week 6 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/17). |
+| Team Review | TLDEW Week 6 Review Ticket | [TLDEW Week 6 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/18). |
+
+## Week 7 ##
+
+| Name | Tasks | Evidence | 
+| ------- | ----------- | -------- |
+| Ethan Gravin | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/). | 
+| Timothy Lin | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://timl1n.github.io/TimTestTime/). | 
+| Dylan Luo | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements, created Time Box 7, and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 7](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-6). |
+| Lucas Huang | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements, updated the Scrum Board, and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
+| William Du | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
+| Team Review | TLDEW Week 7 Review Ticket | [TLDEW Week 7 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/19). |
+
