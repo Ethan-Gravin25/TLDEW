@@ -20,7 +20,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | TPT Notes and Actions College Board Topics 5.1 and 5.2, Documentation on Data Structures Project, Documentation on Create Task Project, embedded Replit Python Menu for Runtime, and created the Website Wire Frame. | [Dylan Luo Individual Github Repository](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Trail Norte Website Wire Frame](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit). |
 | Lucas Huang | TPT Notes and Actions College Board Topics 5.1 and 5.2, Documentation on Data Structures Project, Documentation on Create Task Project, embedded Replit Python Menu for Runtime, and created The Scrum Board. | [Lucas Huang Individual Github Repository](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | TPT Notes and Actions College Board Topics 5.1 and 5.2, Documentation on Data Structures Project, Documentation on Create Task Project, and embedded Replit Python Menu for Runtime. | [William Du Individual Github Repository](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 0 Review Ticket | [TLDEW Week 0 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/1). |
+| Team Review | TLDEW Week 0 Review Ticket. | [TLDEW Week 0 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/1). |
 
 ## Week 1 ##
 
@@ -31,7 +31,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | TPT Notes and Actions College Board Topics 5.3 and 5.4, Replit for Runtime: InfoDB lists, InfoDB loops, and Fibonacci, and helped update ReadME Time Boxes as well as improved the Trail Norte Website Wireframe. | [TLDEW Week 1 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Trail Norte Website Wire Frame](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit) // [Time Box 1](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-1). |
 | Lucas Huang | TPT Notes and Actions College Board Topics 5.3 and 5.4, Replit for Runtime: InfoDB lists, InfoDB loops, and Fibonacci, and finished Scrum Board and GitHub Requirements.  | [TLDEW Week 1 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | TPT Notes and Actions College Board Topics 5.3 and 5.4, Replit for Runtime: InfoDB lists, InfoDB loops, and Fibonacci, and updated the Trail Norte Website Wireframe. | [TLDEW Week 1 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/) // [Trail Norte Website Wire Frame](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit). | 
-| Team Review | TLDEW Week 1 Review Ticket | [TLDEW Week 1 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/2). |
+| Team Review | TLDEW Week 1 Review Ticket. | [TLDEW Week 1 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/2). |
 
 ## Week 2 ##
 
@@ -42,7 +42,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | TPT Notes and Actions College Board Topics 5.5 and 5.6 With The Indvidual GitHub MIT License, Replit for Runtime: Classy Functions, updated the ReadMe Time Boxes, and created the TLDEW Trail Norte Website via Intelli J. | [TLDEW Week 2 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Trail Norte Website Wire Frame](https://www.canva.com/design/DAE6hI67WXI/9DDU-Zv4I_7ZuRQ1SzE6xA/edit) // [Time Box 2](https://github.com/Ethan-Gravin25/TLDEW#week-2) // [TLDEW Trail Norte Project PBL Idea](https://ethan-gravin25.github.io/TLDEW/idea). |
 | Lucas Huang | TPT Notes and Actions College Board Topics 5.5 and 5.6 With The Indvidual GitHub MIT License, Replit for Runtime: Classy Functions, updated the Scrum Board, and helped worked on the PBL of the TLDEW Trail Norte Website.  | [TLDEW Week 2 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1) // [TLDEW Trail Norte Project PBL Idea](https://ethan-gravin25.github.io/TLDEW/idea). |
 | William Du | TPT Notes and Actions College Board Topics 5.5 and 5.6 With The Indvidual GitHub MIT License, Replit for Runtime: Classy Functions, and helped finish the Project/Sponsor presentation on GitHub. | [TLDEW Week 2 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/) // [The TLDEW GitHub Project/Sponsor Presentation](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md). | 
-| Team Review | TLDEW Week 2 Review Ticket | [TLDEW Week 2 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/12). |
+| Team Review | TLDEW Week 2 Review Ticket. | [TLDEW Week 2 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/12). |
 
 ## Week 3 ##
 
@@ -53,7 +53,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | Algorithmic Final and created Time Box 3. | [TLDEW Week 3 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 3](https://github.com/Ethan-Gravin25/TLDEW#week-3). |
 | Lucas Huang | Algorithmic Final and updated the Scrum Board. | [TLDEW Week 3 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | Algorithmic Final | [TLDEW Week 3 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 3 Review Ticket | [TLDEW Week 3 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/11). |
+| Team Review | TLDEW Week 3 Review Ticket. | [TLDEW Week 3 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/11). |
 
 ## Week 4 ##
 
@@ -64,7 +64,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | Finished College Board Create Task Project for the week, created Time Box 4, and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 4](https://github.com/Ethan-Gravin25/TLDEW#week-4) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). |
 | Lucas Huang | Finished College Board Create Task Project for the week, updated the Scrum Board, and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). |
 | William Du | Finished College Board Create Task Project for the week and helped complete the Week 4 Hacks Assignment. | [TLDEW Week 4 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/) // [Week 4 Login Hacks](https://github.com/Ethan-Gravin25/TLDEW/blob/main/presentation.md#week-4-login-hacks). | 
-| Team Review | TLDEW Week 4 Review Ticket | [TLDEW Week 4 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/16). |
+| Team Review | TLDEW Week 4 Review Ticket. | [TLDEW Week 4 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/16). |
 
 
 ## Week 5 ##
@@ -76,7 +76,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | Finished College Board Preparations Week 1 Assignment and created Time Box 5. | [TLDEW Week 5 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 5](https://github.com/Ethan-Gravin25/TLDEW#week-5). |
 | Lucas Huang | Finished College Board Preparations Week 1 Assignment and updated the Scrum Board. | [TLDEW Week 5 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | Finished College Board Preparations Week 1 Assignment. | [TLDEW Week 5 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 5 Review Ticket | [TLDEW Week 5 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/17). |
+| Team Review | TLDEW Week 5 Review Ticket. | [TLDEW Week 5 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/17). |
 
 ## Week 6 ##
 
@@ -87,7 +87,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | Finished College Board Preparations Week 2 Assignment and created Time Box 6. | [TLDEW Week 6 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 6](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-6). |
 | Lucas Huang | Finished College Board Preparations Week 2 Assignment and updated the Scrum Board. | [TLDEW Week 6 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | Finished College Board Preparations Week 2 Assignment. | [TLDEW Week 6 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 6 Review Ticket | [TLDEW Week 6 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/18). |
+| Team Review | TLDEW Week 6 Review Ticket. | [TLDEW Week 6 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/18). |
 
 ## Week 7 ##
 
@@ -98,7 +98,7 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements, created Time Box 7, and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 7](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-7). |
 | Lucas Huang | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements, updated the Scrum Board, and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | Completed AP Examinations Week 1 Proctored MCQ Test 5 requirements and continued studying for the AP Computer Science Principles Multiple Choice Questions AP Examination. | [TLDEW Week 7 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 7 Review Ticket | [TLDEW Week 7 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/19). |
+| Team Review | TLDEW Week 7 Review Ticket. | [TLDEW Week 7 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/19). |
 
 ## Week 8 ##
 
@@ -109,6 +109,6 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 | Dylan Luo | PBL Coding and created Time Box 8. | [TLDEW Week 8 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 8](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-8). |
 | Lucas Huang | PBL Coding and updated the Scrum Board. | [TLDEW Week 8 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
 | William Du | PBL Coding. | [TLDEW Week 8 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
-| Team Review | TLDEW Week 8 Review Ticket | [TLDEW Week 8 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/20). |
+| Team Review | TLDEW Week 8 Review Ticket. | [TLDEW Week 8 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/20). |
 
 
