@@ -3,9 +3,9 @@
 
 <h1> Period 4 TLDEW </h1>
 Hello! We are the TLDEW scrum team. We want to create a website to help adventure seekers find their next trail or trip. Our website will support an interactive map with trails that can be rated by the users. It will have other features that will be implemented in the future. Our website sponsor will be the Del Norte Hiking Club.
-
+<br>
 # Key PBL Features </h2>
-
+<br>
 ## Home Page
 Our home page will feature a photo of one of the trails that the users can pick from. It will have a navbar with links to all of the different parts of the website and it will have buttons that take the user to the TrailNorte social media pages, the main feature of the site - the hiking map, and a login area that prompts the user to make an account or login. 
     
