@@ -6,16 +6,6 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 
 <h2> Key PBL Features </h2>
 
-* Home
-* About Us Pages
-* Interactive Hiking Map
-* Hiking Trail Recommendations
-* Hiking Equipment Shop
-* Hiking Forum
-* Hiking Tours/Group Hikes
-
-## In Depth Description of Future Plans
-
 # Home Page
 Our home page will feature a photo of one of the trails that the users can pick from. It will have a navbar with links to all of the different parts of the website and it will have buttons that take the user to the TrailNorte social media pages, the main feature of the site - the hiking map, and a login area that prompts the user to make an account or login. 
     
