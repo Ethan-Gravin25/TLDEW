@@ -17,9 +17,9 @@ def Volunteering():
     return render_template("Volunteering.html")
 
 
-@app.route('/walruses/')
-def walruses():
-    return render_template("walruses.html")
+@app.route('/Announcements/')
+def Announcements():
+    return render_template("Announcements.html")
 
 
 @app.route('/hawkers/')
