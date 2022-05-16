@@ -1,59 +1,141 @@
-<!DOCTYPE HTML>
+<!-- Extending the project layout, as this file will do minor customizations -->
+
+<!-- Setting up variables to customize "project" details to be specific to hawkers -->
+{% set project = "Volunteering Sign Up" %}
+
+<!-- Setting up a block replacement to customize background to BIRDS -->
 <html lang="en">
 
+{% set basename = "TLDEW: Dylan Luo" %}
+{% include "layouts/navbar.html" %}
 <head>
-    <title>Shop</title>
-
+    <meta charset="UTF-8">
+    <title>Volunteering</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-
-<body>
-
-</body>
-
-</html>
-
-{% block background %}
-
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body {
-            background-image: url('https://static.onecms.io/wp-content/uploads/sites/28/2020/07/10/yosemite-national-park-falls-trail-CALIHIKES0720.jpg');
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url("https://images.unsplash.com/photo-1567739665094-c24f043b8407?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+
+            /* Add the blur effect */
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-size: 110%;
             background-repeat: no-repeat;
-            background-size: 100%;
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+        body {
+
         }
     </style>
+</head>
+<body>
 
-    </head>
+<div class="bg-image"></div>
+
+<div class="bg-text">
+    <h1 style="font-size:50px">Recommended Hiking Equipment</h1>
+    <p>Welcome to the Trail Norte Hiking Equipment section. Here you can find all of our personally recommended items that you should take on certain hikes depending on its conditions.</p>
+</div>
+
+</body>
+</html>
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+
+    .price {
+        color: grey;
+        font-size: 22px;
+    }
+
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center; border-top:1000px;">Mens</h1>
+
+<div class="row">
+<div class="card">
+    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
 
 
-    <body>
+</div>
 
-    {% set project = "equipment" %}
+<div class="card">
+    <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <p><button>Add to Cart</button></p>
+</div>
 
-    <!-- Setting up a block replacement to customize background to BIRDS -->
-    <html lang="en">
-
-    {% set basename = "TLDEW: William Du" %}
-    {% include "layouts/navbar.html" %}
-
-
-    <h1 class="text-center" style="margin-top: 15px; margin-bottom: -11px; ">Shop</h1>
-
-
-    <div class="row">
-
-        <div class="card" style="width: 200px; margin-right: 5px; margin-top: 40px; margin-left: 55px;">
-            <img src="" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Shoes</h5>
-                <p class="card-text">stuff</p>
-                <a href="amazon" class="btn btn-primary">Buy</a>
-
-            </div>
-        </div>
+</body>
+</html>
 
 
-
-
-{% endblock %}
