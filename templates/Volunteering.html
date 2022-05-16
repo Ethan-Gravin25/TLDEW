@@ -63,11 +63,11 @@
     }
 
     @keyframes changingbackground1 {
-        0% {}
-        25% {}
-        50% {}
-        75% {}
-        100% {}
+        0% {background: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701694511.jpg");}
+        25% {background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_517129164_279516.jpg");}
+        50% {background: url("https://www.teahub.io/photos/full/299-2994946_beautiful-forest-nature-background.jpg");}
+        75% {background: url("https://cdn.wallpapersafari.com/23/42/eXK2qd.jpg");}
+        100% {background: url("https://wallpaperaccess.com/full/1204217.jpg");}
     }
 
     #VolunteeringBackground2 {
@@ -92,23 +92,10 @@
         color: gray;
         border: none;
         height: 37px;
-        padding: 10px;
+        padding: 7px;
         margin-top: 10px;
         position: relative;
         left: 100px;
-    }
-
-    /* ::placeholder {
-    } */
-
-    .Dropdown {
-        background-color: white;
-        height: 37px;
-        width: 640px;
-        color: black;
-    }
-    .DropdownContent {
-        background-color: white;
     }
 
     .button1 {
@@ -126,15 +113,30 @@
     }
 
     ::placeholder {
-        color: white;
+        color: black;
     }
 
+    input[type=date] {
+        color: black;
+    }
+
+    select {
+        color: black;
+    }
+
+    select[name = SelectColor] {
+        color: black;
+    }
 
 </style>
 
 <body>
     <div class = "VolunteeringBackground1">
-        <h1>Volunteering Sign Ups</h1>
+    <div class = "VolunteeringBackground1_background"></div>
+    <div class = "VolunteeringBackground1_overlay"></div>
+        <div class = "VolunteeringBackground1_content">
+            <h1 style = "color: white;">Volunteering Sign Ups</h1>
+        </div>
     </div>
 
     <div id = "VolunteeringBackground2">
@@ -148,18 +150,18 @@
             <input class = "InputVolunteering" placeholder = "Email" style = "position: relative; top: 10px">
             <h5 style = "position: relative; left: 100px; top: 20px;">Select today's date</h5>
             <input class = "InputVolunteering" type = "date" style = "position: relative; top: 20px">
-            <button class="button1" style = "position: relative; left: 100px; top: 50px;">Submit</button>
+            <h5 style = "position: relative; left: 100px; top: 30px;">Pick the preferred time of volunteering</h5>
+            <select class = "InputVolunteering" style = "position: relative; top: 30px;" name = "SelectColor">
+                <option value="Morning" style = "text-align: center; color: black;">Morning</option>
+                <option value="Afternoon" style = "text-align: center; color: black;">Afternoon</option>
+            </select>
+            <button class="button1" style = "position: relative; left: 100px; top: 57px;">Submit</button>
         </div>
     </div>
 </body>
 
 
 <script>
-
-    function Dropdown() {
-        var A = document.getElementById("Dropdown")
-        A.classList.toggle("show")
-    }
 
 
 </script>

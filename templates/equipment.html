@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Shop</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+</body>
+
+</html>
+
+{% block background %}
+
+    <style>
+        body {
+            background-image: url('https://static.onecms.io/wp-content/uploads/sites/28/2020/07/10/yosemite-national-park-falls-trail-CALIHIKES0720.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+
+    </head>
+
+
+    <body>
+
+    {% set project = "equipment" %}
+
+    <!-- Setting up a block replacement to customize background to BIRDS -->
+    <html lang="en">
+
+    {% set basename = "TLDEW: William Du" %}
+    {% include "layouts/navbar.html" %}
+
+
+    <h1 class="text-center" style="margin-top: 15px; margin-bottom: -11px; ">Shop</h1>
+
+
+    <div class="row">
+
+        <div class="card" style="width: 200px; margin-right: 5px; margin-top: 40px; margin-left: 55px;">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Shoes</h5>
+                <p class="card-text">stuff</p>
+                <a href="amazon" class="btn btn-primary">Buy</a>
+
+            </div>
+        </div>
+
+
+
+
+{% endblock %}
