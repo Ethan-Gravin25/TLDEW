@@ -104,11 +104,11 @@ Hello! We are the TLDEW scrum team. We want to create a website to help adventur
 
 | Name | Tasks | Evidence | 
 | ------- | ----------- | -------- |
-| Ethan Gravin | PBL Coding. | [TLDEW Week 8 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/). | 
-| Timothy Lin | PBL Coding. | [TLDEW Week 8 Review Ticket](https://timl1n.github.io/TimTestTime/). | 
-| Dylan Luo | PBL Coding and created Time Box 8. | [TLDEW Week 8 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [Time Box 8](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-8). |
-| Lucas Huang | PBL Coding and updated the Scrum Board. | [TLDEW Week 8 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
-| William Du | PBL Coding. | [TLDEW Week 8 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/). | 
+| Ethan Gravin | PBL Coding: Created the outline page for all of the different hiking trails. Worked on the GitHub Presentation. | [TLDEW Week 8 Review Ticket](https://ethan-gravin25.github.io/TLDEWEthanG/) // [TLDEW GitHub and IntelliJ Commits](https://github.com/Ethan-Gravin25/TLDEW/commits/main) // [TLDEW PBL Big Idea Presentation](https://ethan-gravin25.github.io/TLDEW/idea). | 
+| Timothy Lin | PBL Coding: Started the Announement Board page, specifically the Upcoming Events function. | [TLDEW Week 8 Review Ticket](https://timl1n.github.io/TimTestTime/) // [TLDEW GitHub and IntelliJ Commits](https://github.com/Ethan-Gravin25/TLDEW/commits/main). | 
+| Dylan Luo | PBL Coding: Worked and on finished the Volunteering Sign Ups page, and started on the Trail Norte Forum page. Created Time Box 8. | [TLDEW Week 8 Review Ticket](https://dylanluo05.github.io/TLDEW-DylanLuo/) // [TLDEW GitHub and IntelliJ Commits](https://github.com/Ethan-Gravin25/TLDEW/commits/main) // [Time Box 8](https://github.com/Ethan-Gravin25/TLDEW/blob/main/README.md#week-8). |
+| Lucas Huang | PBL Coding: Designed the Home page and researched about how to code the Interactive Map page. Updated the Scrum Board. | [TLDEW Week 8 Review Ticket](https://lucashuang248.github.io/Lumoo/) // [TLDEW GitHub and IntelliJ Commits](https://github.com/Ethan-Gravin25/TLDEW/commits/main) // [The TLDEW Scrum Board](https://github.com/Ethan-Gravin25/TLDEW/projects/1). |
+| William Du | PBL Coding: Worked on the Hiking Equipment page. | [TLDEW Week 8 Review Ticket](https://williamdu22.github.io/WilliamDuRepository/) // [TLDEW GitHub and IntelliJ Commits](https://github.com/Ethan-Gravin25/TLDEW/commits/main). | 
 | Team Review | TLDEW Week 8 Review Ticket. | [TLDEW Week 8 Review Ticket](https://github.com/Ethan-Gravin25/TLDEW/issues/20). |
 
 
