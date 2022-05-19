@@ -37,6 +37,10 @@ def stub():
 def equipment():
     return render_template("equipment.html")
 
+@app.route('/hikeDescriptionOutline/')
+def hikeDescriptionOutline():
+    return render_template("hikedescriptionOutline.html")
+
 
 # runs the application on the development server
 if __name__ == "__main__":
