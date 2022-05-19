@@ -1,16 +1,14 @@
-<!-- Extending the project layout, as this file will do minor customizations -->
 
-<!-- Setting up variables to customize "project" details to be specific to hawkers -->
 {% set project = "Volunteering Sign Up" %}
 
-<!-- Setting up a block replacement to customize background to BIRDS -->
+
 <html lang="en">
 
 {% set basename = "TLDEW: Dylan Luo" %}
 {% include "layouts/navbar.html" %}
 <head>
     <meta charset="UTF-8">
-    <title>Volunteering</title>
+    <title>Volunteering Sign Ups</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +19,7 @@
 <style>
 
     html, body {
+        background-color: white;
         overflow-x: hidden;
         font-family: 'Ubuntu', sans-serif;
     }
@@ -66,8 +65,8 @@
         0% {background: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701694511.jpg");}
         25% {background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_517129164_279516.jpg");}
         50% {background: url("https://www.teahub.io/photos/full/299-2994946_beautiful-forest-nature-background.jpg");}
-        75% {background: url("https://cdn.wallpapersafari.com/23/42/eXK2qd.jpg");}
-        100% {background: url("https://wallpaperaccess.com/full/1204217.jpg");}
+        75% {background: url("https://wallpaperaccess.com/full/1204217.jpg");}
+        100% {background: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701694511.jpg");}
     }
 
     #VolunteeringBackground2 {
@@ -89,7 +88,7 @@
     .InputVolunteering {
         width: 750px;
         background-color: lightgray;
-        color: gray;
+        color: black;
         border: none;
         height: 37px;
         padding: 7px;
@@ -155,13 +154,20 @@
                 <option value="Morning" style = "text-align: center; color: black;">Morning</option>
                 <option value="Afternoon" style = "text-align: center; color: black;">Afternoon</option>
             </select>
-            <button class="button1" style = "position: relative; left: 100px; top: 57px;">Submit</button>
+            <button class="button1" id = "A" style = "position: relative; left: 100px; top: 77px;">Submit</button>
         </div>
     </div>
 </body>
 
 
 <script>
+function ButtonClick() {
+    document.getElementById("A").hidden = true;
+}
+
+const A = document.getElementById("A");
+A.addEventListener('click', ButtonClick);
+
 
 
 </script>
