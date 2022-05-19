@@ -1,21 +1,23 @@
 <!-- Extending the project layout, as this file will do minor customizations -->
 
 <!-- Setting up variables to customize "project" details to be specific to hawkers -->
-{% set project = "Volunteering Sign Up" %}
+{% set project = "Store" %}
 
 <!-- Setting up a block replacement to customize background to BIRDS -->
 <html lang="en">
 
-{% set basename = "TLDEW: Dylan Luo" %}
+{% set basename = "TLDEW: William Du" %}
 {% include "layouts/navbar.html" %}
 <head>
     <meta charset="UTF-8">
-    <title>Volunteering</title>
+    <title>Attire/Equipment</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cookieless.MySite.com/favicon.ico" type="image/x-icon" />
+
 </head>
 
 <head>
@@ -110,32 +112,85 @@
     .card button:hover {
         opacity: 0.7;
     }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
 </style>
 </head>
 <body>
 
-<h1 style="text-align:center; border-top:1000px;">Mens</h1>
+<h1 style="text-align:center; border-top:1000px;">Attire/Equipment</h1>
 
 <div class="row">
 <div class="card">
     <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
-    <h1>Tailored Jeans</h1>
-    <p class="price">$19.99</p>
-    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+    <h1>Mens Running Shoes</h1>
+    <p class="price">$49.99</p>
+    <p>A list of mens running shoes from various brands including Nike, Adidas, and Under Armour.</p>
     <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
 
 
 </div>
 
-<div class="card">
-    <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
-    <h1>Tailored Jeans</h1>
-    <p class="price">$19.99</p>
-    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-    <p><button>Add to Cart</button></p>
-</div>
+    <div class="card">
 
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+
+
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+
+    </div>
 </body>
 </html>
-
-
