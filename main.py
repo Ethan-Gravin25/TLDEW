@@ -13,20 +13,18 @@ def index():
 
 # connects /Volunteering path to render Volunteering.html
 @app.route('/Volunteering/')
-def Volunteering():
+def volunteering():
     return render_template("Volunteering.html")
 
 
 @app.route('/Announcements/')
-def Announcements():
+def announcements():
     return render_template("Announcements.html")
 
 
 @app.route('/hawkers/')
 def hawkers():
     return render_template("hawkers.html")
-
-#test
 
 
 @app.route('/stub/')
@@ -41,6 +39,9 @@ def equipment():
 def hikeDescriptionOutline():
     return render_template("hikedescriptionOutline.html")
 
+@app.route('/mainmap/')
+def mainmap():
+    return render_template("/interactivemapcode/mainmap.html")
 
 # runs the application on the development server
 if __name__ == "__main__":
