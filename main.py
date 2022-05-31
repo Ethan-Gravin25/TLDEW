@@ -1,8 +1,6 @@
 # import "packages" from flask
 from flask import Flask, render_template
-from __init__ import app
 
-from cruddy.app_crud import app_crud
 from cruddy.app_crud_api import app_crud_api
 
 app.register_blueprint(app_crud)

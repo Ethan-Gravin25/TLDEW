@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_migrate import Migrate
+
 
 """
 These object will be used throughout project.
