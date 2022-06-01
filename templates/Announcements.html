@@ -11,6 +11,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+        }
+        .left, .right {
+            height: 80%;
+            width: 50%;
+            position: fixed;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .left {
+            left: 0;
+            background-color: rgb(144, 238, 144);
+            padding: 20px
+        }
+        .right {
+            right: 0;
+            background-color: rgb(1, 68, 33);
+            padding: 20px;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .centered img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+    </style>
+
 </head>
+
+<body>
+
+<h1 style="color: black; text-align: center">Announcements and Upcoming Events</h1>
+<div class="left">
+    <h1>Announcements</h1>
+</div>
+<div class="right">
+    <h1>Calendar</h1>
+    <div style="float: left; padding: 10px;">
+        <iframe src="https://calendar.google.com/calendar/embed?height=800&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=1&showCalendars=1&showTabs=1&mode=AGENDA&src=ZWFjMXJoOWJvamlsdTBqa3ZiZmthbmRyaXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dXZtN3ZpZ291ZDlpNDUyczgxbDhuNnU0cGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%233F51B5&color=%23F4511E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
+
+</body>
 
 </html>
