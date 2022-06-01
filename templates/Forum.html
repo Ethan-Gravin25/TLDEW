@@ -21,20 +21,35 @@
         background-color: white;
         overflow-x: hidden;
         font-family: 'Roboto Flex', sans-serif;
+        scroll-behavior: smooth;
     }
 
 
-    .ForumBackground1 {
+    #ForumBackground1 {
         background-color: white;
         background-repeat: no-repeat;
         padding: 200px;
     }
 
     #ForumBackground2 {
-        background-color: mediumseagreen;
+        background-color: dodgerblue;
         background-repeat: no-repeat;
-        padding: 160px;
+        padding: 200px;
     }
+
+    #ForumBackground3 {
+        background-color: white;
+        background-repeat: no-repeat;
+        padding: 200px;
+    }
+
+    #ForumBackground4 {
+        background-color: royalblue;
+        background-repeat: no-repeat;
+        padding: 200px;
+    }
+
+    * {box-sizing: border-box;}
 
     .CategoryBox {
         height: 200px;
@@ -51,7 +66,7 @@
         height: 100px;
     }
 
-    .button2 {
+    .forumbutton1 {
         height: 50px;
         z-index: 1;
         width: 200px;
@@ -62,9 +77,45 @@
         border: 2px solid white;
     }
 
+    @keyframes Button1Animation {
+        0% {background-image: linear-gradient(right, lightskyblue 50%, mediumaquamarine 50%);}
+        25% {background-image: linear-gradient(right, mediumseagreen 50%, dodgerblue 50%);}
+        50% {background-image: linear-gradient(right, royalblue 50%, mediumpurple 50%);}
+        75% {background-image: linear-gradient(right, rebeccapurple 50%, purple 50%);}
+        100% {background-image: linear-gradient(right, blueviolet 50%, mediumvioletred 50%);}
+    }
 
-    .button2:hover {
+    .forumbutton1:hover {
+        animation: Button1Animation;
+    }
 
+    .forumbutton2 {
+        height: 50px;
+        width: 200px;
+        position: relative;
+        color: black;
+        background-color: white;
+        border: 2px solid dodgerblue;
+    }
+
+    .forumbutton2:hover {
+        color: white;
+        background-color: dodgerblue;
+        transition-duration: 0.4s;
+    }
+
+    .forumbutton3 {
+        height: 37px;
+        width: 150px;
+        color: black;
+        background-color: white;
+        border: 2px solid aqua;
+    }
+
+    .forumbutton3:hover {
+        color: white;
+        background-color: aqua;
+        transition-duration: 0.4s;
     }
 
     /*
@@ -78,36 +129,275 @@
         padding: 160px;
     }
     */
+
+    #CommentingContainer {
+        height: 334px;
+        width: 800px;
+        margin: auto;
+        background-color: lightgray;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 4px 4px 0 rgba(0,0,0,0.2);
+    }
+
+    .InputName {
+        background-color: white;
+        height: 30px;
+        width: 150px;
+        border: 1px solid black;
+        padding: 5px;
+        display: block;
+        margin: auto;
+        /*float: left;
+        margin-left: 10px; */
+        border-radius: 8px;
+    }
+
+    .InputDate {
+        background-color: white;
+        height: 30px;
+        width: 120px;
+        border: 1px solid black;
+        padding: 5px;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 12px;
+        border-radius: 8px;
+    }
+
+    .InputPost {
+        background-color: white;
+        height: 120px;
+        width: 500px;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 24px;
+        border-radius: 8px;
+    }
+
+    .InputPost::placeholder {
+        padding: 8px;
+        float: left;
+    }
+
+    .li1 {
+        margin-top: 4px;
+        padding: 12px 8px 12px 38px;
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+        position: relative;
+        top: -20px;
+    }
+
+    .CommentsContainer {
+        background-color: lightsteelblue;
+        height: 448px;
+        width: 1200px;
+    }
+
+
+    taskinput[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        resize: vertical;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    ul li {
+        font-size: 20px;
+        position: relative;
+        padding: 12px 8px 12px 40px;
+        background: white;
+        border: 2px solid black;
+        list-style: none;
+        border: 2px solid slategray;
+    }
+
+    .check {
+        position: relative;
+        float: right;
+        color: black;
+        border: 2px solid dodgerblue;
+        background-color: white;
+        height: 28px;
+        width: 100px;
+        padding: 2px;
+        display: inline-block;
+        font-size: 12px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .check:hover {
+        background-color: dodgerblue;
+        color: white;
+        transition-duration: 0.4s;
+    }
+
+    .like {
+        position: relative;
+        left: 668px;
+        color: black;
+    }
+    .like:hover {
+        color: yellow;
+        transition-duration: 0.4s;
+    }
+
+    .dislike {
+        position: relative;
+        left: 688px;
+    }
+
+    .dislike:hover {
+        color: yellow;
+        transition-duration: 0.4s;
+    }
+
 </style>
 
 <body>
- <div class = "ForumBackground1">
-     <h1 style = "text-align: center; position: relative; top: -160px;">Travel Forum</h1>
-     <div class = "Navigationbar" style = "top: -100px; left: -50px;">
-         <button class = "button2 button2outline" style = "left: 50px">Most Recent</button>
-         <button class = "button2 button2outline" style = "left: 220px;">Most Liked</button>
-         <button class = "button2 button2outline" style = "left: 400px;">Highest Rating</button>
-     </div>
-     <div class = "CategoryBox" style = "left: -50px; top: -50px;">
+<div id = "ForumBackground1">
+    <h1 style = "text-align: center; position: relative; top: -160px;">TrailNorte Forum</h1>
+    <button class = "forumbutton2" onclick = "document.getElementById('CommentingContainer').scrollIntoView();" style = "top: -137px; left: 460px;">Create a Forum Comment</button>
+    <div class = "Navigationbar" style = "top: -100px; left: -45px;">
+        <button class = "forumbutton1" onclick = "document.getElementById('ForumBackground2').scrollIntoView();" style = "left: 55px;">Most Recent</button>
+        <button class = "forumbutton1" onclick = "document.getElementById('ForumBackground3').scrollIntoView();" style = "left: 225px;">Most Liked</button>
+        <button class = "forumbutton1" onclick = "document.getElementById('ForumBackground4').scrollIntoView();" style = "left: 405px;">Most Controversial</button>
+    </div>
+    <h2 style = "color: black; position: relative; top: -77px; text-align: center;">Community Guidelines</h2>
+    <div class = "CategoryBox" style = "left: -45px; top: -50px;">
+        <h4 style="padding:10px; text-align: center;">Conduct</h4>
+        <hr style = "position: relative; top: -20px; border-color: gray;">
+        <ul style = "position: relative; top: -20px;">
+            <li class="li1">Be respectful</li>
+            <li class = "li1">No swearing</li>
+            <li class="li1">Be kind to others</li>
+        </ul>
+    </div>
+    <div class = "CategoryBox" style = "left: 655px; top: -250px;">
+        <h4 style="padding:10px; text-align: center;">Content</h4>
+        <hr style = "position: relative; top: -20px; border-color: gray;">
+        <ul style = "position: relative; top: -20px;">
+            <li class="li1">Comment accurate information</li>
+            <li class = "li1">Do not post inappropriate content</li>
+            <li class="li1">Do not spam</li>
+        </ul>
+    </div>
+    <div class = "CategoryBox" style = "left: 305px; top: -150px;">
+        <h4 style="padding:10px; text-align: center;">Possible Penalties</h4>
+        <hr style = "position: relative; top: -20px; border-color: gray;">
+        <ul style = "position: relative; top: -20px;">
+            <li class="li1">1st violation results in 1 week ban</li>
+            <li class = "li1">2nd violation results in 1 month ban</li>
+            <li class="li1">3rd violation results in permanent ban</li>
+        </ul>
+    </div>
+    <div id = "CommentingContainer">
+        <h2 style = "text-align: center; position: relative;">Create Your Own Post</h2>
+        <input class = "InputName" placeholder = "First and Last Name" id = "InputValue1">
+        <input class = "InputDate" type = "date" id = "InputValue2">
+        <input class = "InputPost" type = "text1" placeholder = "Share Your Thoughts!" id="InputValue3">
+        <button class = "forumbutton2" id = "A" onclick = "CreateComment();" style = "position: relative; display: block; margin: auto; top: 37px;">Submit</button>
+        <h5 id = "B" style = "color: black; text-align: center; position: relative; top: 50px;"></h5>
+    </div>
 
-     </div>
-     <div class = "CategoryBox" style = "left: 650px; top: -250px;">
+</div>
+<div id = "ForumBackground2">
+    <h1 style = "color: white; position: relative; top: -100px;">Most Recent Comments</h1>
+    <div class = "CommentsContainer">
+        <ul id = "RecentCommentList"></ul>
+    </div>
+</div>
 
-     </div>
-     <div class = "CategoryBox" style = "left: 300px; top: -50px;">
+<div id = "ForumBackground3">
+    <h1 style = "color: black; position: relative; top: -100px;">Most Liked Comments</h1>
+    <div class = "CommentsContainer">
+        <ul id  = "LikedCommentLIst"></ul>
+    </div>
+</div>
 
-     </div>
- </div>
- <div id = "ForumBackground2">
+<div id = "ForumBackground4">
+    <h1 style = "color: white; position: relative; top: -100px;">Most Controversial Comments</h1>
+    <div class = "CommentsContainer">
 
- </div>
-
-<div class = "ForumBackground1">
-
+    </div>
 </div>
 
 </body>
 
 <script>
+
+
+    function CreateComment() {
+        /* Some aspects of function are from https://www.w3schools.com/howto/howto_js_todolist.asp */
+        let inputValue1 = document.getElementById("InputValue1").value;
+        let inputValue2 = document.getElementById("InputValue2").value;
+        let inputValue3 = document.getElementById("InputValue3").value;
+        let listitem = document.createElement("li");
+        let block4 = document.createTextNode(inputValue1);
+        let block5 = document.createTextNode(inputValue2);
+        let block6 = document.createTextNode(inputValue3);
+        listitem.append(block4);
+        listitem.append("-");
+        listitem.append(block5);
+        listitem.append(":");
+        listitem.append("    ");
+        listitem.append(block6);
+        /* Conditional statement */
+        if (inputValue1 === '' || inputValue2 === '' || inputValue3 === '') {
+            alert("Please fill out all forms");
+        }
+        else {
+            document.getElementById("RecentCommentList").append(listitem);
+        }
+        document.getElementById("InputValue1").value = "";
+        document.getElementById("InputValue2").value = "";
+        document.getElementById("InputValue3").value = "";
+
+        let task1 = document.createElement("TASK1");
+        let task2 = document.createElement("TASK2");
+        let task3 = document.createElement("TASK3");
+        let like = document.createTextNode("Like");
+        let dislike = document.createTextNode("Dislike");
+        let checkmark = document.createTextNode("Delete Comment");
+        task1.className = "like";
+        task2.className = "dislike";
+        task3.className = "check";
+        task1.append(like);
+        task2.append(dislike);
+        task3.append(checkmark);
+        listitem.append(task1);
+        listitem.append(task2);
+        listitem.append(task3);
+
+        /* let like = document.getElementsByClassName("like");
+           let dislike = document.getElementsByClassName("dislike"); */
+        let check = document.getElementsByClassName("check");
+        let A;
+
+        /* Iteration for each list item. For each list item, if the "x" symbol is clicked on, the item is removed from the to-do list. */
+        for (A = 0; A < check.length; A++) {
+            check[A].onclick = function() {
+                var itemlist = this.parentElement;
+                itemlist.style.display = "none";
+            }
+        }
+
+        /* for (A = 0; A < like.length; A++) {
+            like[A].onclick = function() {
+                document.getElementById("LikedCommentList").append(listitem);
+            }
+        } */
+    }
 
 </script>

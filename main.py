@@ -29,11 +29,6 @@ def announcements():
 def hawkers():
     return render_template("hawkers.html")
 
-
-@app.route('/stub/')
-def stub():
-    return render_template("stub.html")
-
 @app.route('/HikingEquipment/')
 def equipment():
     return render_template("equipment.html")
@@ -45,6 +40,10 @@ def hikeDescriptionOutline():
 @app.route('/mainmap/')
 def mainmap():
     return render_template("/interactivemapcode/mainmap.html")
+
+@app.route('/Forum/')
+def Forum():
+    return render_template("Forum.html")
 
 # runs the application on the development server
 if __name__ == "__main__":
