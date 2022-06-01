@@ -8,8 +8,7 @@
 
 {% set basename = "TLDEW: William Du" %}
 {% include "layouts/navbar.html" %}
-{% include "layouts/footer.html" %}
-
+<!-- {% include "layouts/footer.html"%} -->
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +19,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
     <link rel="icon" href="https://cookieless.MySite.com/favicon.ico" type="image/x-icon" />
-
 </head>
 
 <head>
@@ -87,12 +85,31 @@
 </html>
 
 <style>
+    #EquipmentBackground1 {
+        background-color: white;
+        background-repeat: no-repeat;
+        padding: 100px;
+    }
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
+        height: 480px;
+        width: 250px;
         margin: auto;
         text-align: center;
         font-family: arial;
+    }
+
+    .container {
+        height: 280vh;
+        width: 370vh;
+        margin: auto;
+        position: relative;
+        display: grid;
+        padding: 48px;
+        grid-gap: 10px 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: whitesmoke;
     }
 
     .price {
@@ -118,82 +135,196 @@
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+
+    #Wishlist {
+        height: 880px;
+        width: 700px;
+        position: relative;
+        top: 78px;
+        background-color: lightgray;
+        margin:auto;
+        padding: 20px;
+    }
+
+    .ItemContainer {
+        background-color: white;
+        height: 777px;
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .WishlistContainer {
+        height: 580px;
+        width: 400px;
+        border: 2px solid gray;
+        margin: auto;
+        position: relative;
+        top: 20px;
+    }
+
+
+    ::placeholder {
+        padding: 10px;
+    }
+
+    taskinput[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        resize: vertical;
+    }
+
+    * {box-sizing: border-box;}
+
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    ul li {
+        font-size: 20px;
+        position: relative;
+        padding: 12px 8px 12px 40px;
+        background: white;
+        border: 2px solid black;
+        list-style: none;
+    }
+
+    .header {
+        background-color: dodgerblue;
+        padding: 30px 40px;
+        color: white;
+        position: relative;
+        text-align: center;
+    }
+
+    .header:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 </style>
 </head>
 <body>
 
-<h1 style="text-align:center; border-top:1000px;">Clothing/Supplies</h1>
+<h1 style="text-align:center; position: relative; top: 28px;">Men's Attire</h1>
 
-<div class="row">
-<div class="card">
-    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c1f50cab-5e72-45f5-805d-d38beffc53e9/revolution-6-big-kids-road-running-shoes-8zWsC4.png" alt="red" style="width:100%">
-    <h1>Running Shoes</h1>
-    <p class="price">$49.99</p>
-    <p>Classic running shoes great for hiking!</p>
-    <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
 
+<div id="EquipmentBackground1">
+<div class="container">
+    <div class="card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c1f50cab-5e72-45f5-805d-d38beffc53e9/revolution-6-big-kids-road-running-shoes-8zWsC4.png" alt="red" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$49.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c1f50cab-5e72-45f5-805d-d38beffc53e9/revolution-6-big-kids-road-running-shoes-8zWsC4.png" alt="Shorts" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$20.00</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+
+    <div class="card">
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623679732-brookslevitate-1623679702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Denim Jeans" style="width:100%">
+        <h1>name of the product</h1>
+        <p class="price">$19.99</p>
+        <p>info about the product</p>
+        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
+    </div>
+</div>
+    <div id="Wishlist">
+            <h2 style = "text-align: center;">Wishlist</h2>
+            <div class = "ItemContainer">
+                <input type = "text" style = "position: relative; left: 78px;" placeholder = "Add items to your wishlist" id = "InputValue">
+                <button style = "position: relative; left: 100px;" onclick = "WishlistAdd()">Add</button>
+                <div class = "WishlistContainer">
+                    <ul id = "MyWishList"></ul>
+                </div>
+            </div>
+    </div>
 
 </div>
-
-    <div class="card">
-
-        <img src="../static/assets/shorts.png" alt="Shorts" style="width:100%">
-        <h1>Sweat Pants</h1>
-        <p class="price">$20.00</p>
-        <p>Shorts that are great for running flexablity</p>
-        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
-
-
-    </div>
-
-    <div class="card">
-        <img src="../static/assets/cold.png" alt="jacket" style="width:100%">
-        <h1>Jacket</h1>
-        <p class="price">$19.99</p>
-        <p>Jacket good for the cold hikes</p>
-        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
-    </div>
-
-    <div class="card">
-        <img src="../static/assets/compass.png" alt="u lost boi" style="width:100%">
-        <h1>Standard Compass</h1>
-        <p class="price">$7.99</p>
-        <p>Must buy incase you get lost </p>
-        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
-    </div>
-    <div class="card">
-        <img src="../static/assets/water.jpg" alt="nước" style="width:100%">
-        <h1>Hydro Flask</h1>
-        <p class="price">$39.99</p>
-        <p>Water capsule that keeps water cold</p>
-        <a href="https://www.amazon.com/Hydro-Flask-SYNCHKG105388-Standard-Bottle/dp/B01KXHH62Y/ref=sr_1_3?crid=2X3TGA6VYLRD7&keywords=hydrofask&qid=1653586094&sprefix=hydro%2Caps%2C1106&sr=8-3" class="btn btn-primary">Buy</a>
-    </div>
-
-    <div class="card">
-        <img src="../static/assets/backpack.png" alt="fortnite tent" style="width:100%">
-        <h1>Standard Large Backpack</h1>
-        <p class="price">$29.99</p>
-        <p>Has many compartments to carry needed items</p>
-        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
-
-    </div>
-
-    <div class="card">
-        <img src="../static/assets/first%20aid.jpg" alt="med kit momentum sui" style="width:100%">
-        <h1>First Aid Kit</h1>
-        <p class="price">$15.00</p>
-        <p>Contails many first aid items like cloths and disinfected.</p>
-        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
-
-    </div>
-
-    <div class="card">
-        <img src="../static/assets/yum.jpg" alt="out of render fin hop with heavy" style="width:100%">
-        <h1>Pepper Spray</h1>
-        <p class="price">$9.99</p>
-        <p>Causes sting of the eyes used for self defence.</p>
-        <a href="https://www.epicgames.com/affiliate/en-US/dashboard?count=18&kws=&page=0&sortBy=relevancy&sortDir=DESC&start=0" class="btn btn-primary">Buy</a>
-
-    </div>
 </body>
+
+<script>
+
+    let check = document.getElementsByClassName("check");
+    let A;
+    function WishlistAdd() {
+        /* Some aspects of function are from https://www.w3schools.com/howto/howto_js_todolist.asp */
+        let inputValue = document.getElementById("InputValue").value;
+        let listitem = document.createElement("li");
+        let block = document.createTextNode(inputValue);
+        listitem.append(block);
+        /* Conditional statement */
+        if (inputValue === '') {
+            alert("Please write something");
+        }
+        else {
+            document.getElementById("MyWishList").append(listitem);
+        }
+        document.getElementById("InputValue").value = "";
+
+        let task = document.createElement("TASK");
+        let checkmark = document.createTextNode("\u00D7");
+        task.className = "check";
+        task.append(checkmark);
+        listitem.append(task);
+
+        /* Iteration for each list item. For each list item, if the "x" symbol is clicked on, the item is removed from the to-do list. */
+        for (A = 0; A < check.length; A++) {
+            check[A].onclick = function() {
+                var itemlist = this.parentElement;
+                itemlist.style.display = "none";
+            }
+        }
+    }
+</script>
+
 </html>
