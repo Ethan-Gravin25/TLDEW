@@ -104,3 +104,22 @@
     <button type="button" class="btn btn-primary">Submit</button>
 
 </div>
+
+{% for comment in comments %}
+<tr class="text">
+    <td>{{ comment.gameID }}</td>
+    <td>{{ comment.title }}</td>
+    <td>{{ comment.author }}</td>
+    <td>{{ comment.embed }}</td>
+    <td><a href={{ '/update/' + loop.index|string }}>Update</a></td>
+    <td><a href={{ '/delete/' + loop.index|string }}>Delete</a></td>
+</tr>
+{% endfor %}
+</table>
+
+<form action="/games_database" METHOD="POST" class="center">
+    <input type="text" placeholder="Title" name="title">
+    <input type="text" placeholder="Author" name="author">
+    <input type="text" placeholder="Embed" name="embed">
+    <input type="submit" value="Add Game">
+</form>
