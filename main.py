@@ -1,5 +1,7 @@
 # import "packages" from flask
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
+from __init__ import app
+from cruddy.app_crud import app_crud
 
 from cruddy.app_crud_api import app_crud_api
 
@@ -36,9 +38,9 @@ def stub():
 def equipment():
     return render_template("equipment.html")
 
-@app.route('/hikeDescriptionOutline/')
+@app.route("/hikeDescriptionOutline", methods=["GET", "POST"])
 def hikeDescriptionOutline():
-    return render_template("hikedescriptionOutline.html")
+    return render_template("hikeDescriptionOutline")
 
 @app.route('/mainmap/')
 def mainmap():

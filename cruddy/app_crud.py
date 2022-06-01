@@ -4,6 +4,8 @@ from flask import Blueprint, render_template, request, url_for, redirect, jsonif
 from cruddy.query import *
 
 # blueprint defaults https://flask.palletsprojects.com/en/2.0.x/api/#blueprint-objects
+from flask_login import login_required
+
 app_crud = Blueprint('crud', __name__,
                      url_prefix='/crud',
                      template_folder='templates/cruddy/',
