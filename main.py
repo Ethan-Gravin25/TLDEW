@@ -45,6 +45,14 @@ def mainmap():
 def Forum():
     return render_template("Forum.html")
 
+@app.route('/AboutTN/')
+def AboutTN():
+    return render_template("AboutTN.html")
+
+@app.route('/AboutTNLeadership/')
+def AboutTNLeadership():
+    return render_template("AboutTNLeadership.html")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
